@@ -11,7 +11,8 @@ Not sure which threshold to use
 Q = np.array([[-2, 0, 0, 1, 1], [0, -2, 0, 1, 1], [0, 0, -1, 0, 1], [1, 1, 0, -2, 0], [1, 1, 1, 0, -3]])
 
 """
-
+import sys
+print(sys.path)
 import pandas as pd
 import seaborn as sns
 from inspect import GEN_SUSPENDED
